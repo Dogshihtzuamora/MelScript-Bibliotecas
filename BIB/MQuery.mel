@@ -1,0 +1,3 @@
+funcao imp(...mgs){
+imprimir(...mgs)
+}
