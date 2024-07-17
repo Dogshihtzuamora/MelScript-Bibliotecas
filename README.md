@@ -9,4 +9,6 @@
 ou <br>
 <a href="https://mel-script.netlify.app" style="color: #0645AD;">https://mel-script.netlify.app</a>.</p>
 
+<img src="http://mel-script.vercel.app/MelScript.jpg" alt="Descrição da imagem">
+
  <p>&copy; 2024 Ravy Novais Sales. Todos os direitos reservados.</p>
