@@ -11,5 +11,6 @@ ou <br>
 <br>
 <img src="http://mel-script.vercel.app/MelScript.jpg" alt="Descrição da imagem">
 <br>
-
+<footer>
  <p>&copy; 2024 Ravy Novais Sales. Todos os direitos reservados.</p>
+</footer>
