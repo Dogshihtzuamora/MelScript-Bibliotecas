@@ -8,7 +8,8 @@
 <a href="https://mel-script.vercel.app" style="color: #0645AD;">https://mel-script.vercel.app</a> <br>
 ou <br>
 <a href="https://mel-script.netlify.app" style="color: #0645AD;">https://mel-script.netlify.app</a>.</p>
-
+<br>
 <img src="http://mel-script.vercel.app/MelScript.jpg" alt="Descrição da imagem">
+<br>
 
  <p>&copy; 2024 Ravy Novais Sales. Todos os direitos reservados.</p>
