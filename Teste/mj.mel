@@ -1,0 +1,4 @@
+funcao oi(){
+imprimir("oi")
+}
+oi()
