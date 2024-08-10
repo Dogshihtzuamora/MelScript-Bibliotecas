@@ -1,3 +1,39 @@
-funcao imp(...mgs){
-imprimir(...mgs)
+MEL_SCRIPT_LANG="en";
+MEL_SCRIPT_LANG="pt-br";
+
+global imp;
+global alt;
+global Int;
+global EvntClk;
+
+funcao MQ() {
+    imp = funcao(...msgBox) {
+       imprimir(...msgBox); 
+       };             
+       EvntClk = funcao(id, f){
+           EventClick(id, f)
+       };      
+    alt = funcao(...msgBox) {
+        alert(...msgBox);
+    };
+    Int = funcao(x){
+    numeroInteiro = analisarInteiro(x)    
+    retornar numeroInteiro;
+    };
 }
+
+funcao h(){
+Crt = {
+    btn: funcao(id,texto){
+   criar.botao(id,texto)
+    }
+}
+}
+
+funcao MQuery() {
+    MQ();
+    h();
+    
+}
+
+MQuery()
