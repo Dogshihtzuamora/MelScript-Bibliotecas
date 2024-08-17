@@ -19,8 +19,30 @@ funcao MQ() {
     Int = funcao(x){
     numeroInteiro = analisarInteiro(x)    
     retornar numeroInteiro;
-    };
+    };        
 }
+
+funcao If(condicao) {
+    obj = {};
+
+    obj.condicao = condicao;
+
+    obj.ent = funcao(callback) {
+        se(obj.condicao).entao(()=>{
+            callback();
+        })
+        retornar obj;
+    };
+
+    obj.els = funcao(callback) {
+        se(!obj.condicao).entao(()=>{
+            callback();
+        })
+        retornar obj;
+    };
+
+    retornar obj;
+};
 
 funcao h(){
 Crt = {
@@ -32,7 +54,7 @@ Crt = {
 
 funcao MQuery() {
     MQ();
-    h();
+    h();       
     
 }
 
