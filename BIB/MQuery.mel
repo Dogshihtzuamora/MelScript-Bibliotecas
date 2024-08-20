@@ -28,16 +28,16 @@ funcao If(condicao) {
     obj.condicao = condicao;
 
     obj.ent = funcao(callback) {
-        se(obj.condicao).entao(()=>{
+        se(obj.condicao){
             callback();
-        })
+        }
         retornar obj;
     };
 
     obj.els = funcao(callback) {
-        se(!obj.condicao).entao(()=>{
+        se(!obj.condicao){
             callback();
-        })
+        }
         retornar obj;
     };
 
